@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #000000;
+  color: white;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Alinea los elementos verticalmente */
+  padding: 50px 200px 50px 200px;
+}
+
+.content .text {
+  flex: 2; /* El texto ocupa dos tercios del espacio */
+  padding: 0 150px 0 0;
+}
+
+.content .text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.content .side-image {
+  flex: 1; /* La imagen ocupa un tercio del espacio */
+}
+
+.icons {
+  list-style: none;
+}
+
+.content .side-image img {
+  width: 100%;
+  height: auto;
+}
+
+.features {
+  background-color: #2b2720;
+  padding: 30px;
+  text-align: center;
+}
+
+.features h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.features .icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.features .icons .icon {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+.features .icons .icon i {
+  font-size: 36px;
+}
+
+.features .icons .icon p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.gallery {
+  display: flex;
+  padding: 50px 200px 50px 200px;
+  justify-content: space-between;
+}
+
+.gallery img {
+  width: 32%;
+  height: auto;
+  margin-right: 10px;
+}
+
+.gallery img:last-child {
+  margin-right: 0; /* Elimina el margen derecho en la última imagen */
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #2b2720;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
